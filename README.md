@@ -4,7 +4,9 @@
 </div>
 
 # Awesome Django
-> A curated list of awesome things related to Django.
+> A curated list of awesome things related to Django. Maintained by [William Vincent](https://github.com/wsvincent) and [Jeff Triplett](https://github.com/jefftriplett).
+
+Please consider supporting Django by making a donation to the [Django Software Foundation](https://www.djangoproject.com/fundraising/), sponsoring via [GitHub Sponsors](https://github.com/sponsors/django), or buying [official merchandise](https://django.threadless.com/).
 
 ## Contents
 
@@ -23,8 +25,10 @@
     - [Configuration](#configuration)
     - [Content Management Systems](#content-management-systems)
     - [ECommerce](#ecommerce)
+    - [Editors](#editors)
     - [Files/Images](#filesimages)
     - [Forms](#forms)
+    - [General](#general)
     - [Logging](#logging)
     - [Models](#models)
     - [Performance](#performance)
@@ -64,11 +68,6 @@
 
 _For a complete listing of all available packages, see [Django Packages](https://djangopackages.org/)_
 
-- [django-filter](https://github.com/carltongibson/django-filter) - Powerful filters based on Django QuerySets.
-- [django-guardian](https://github.com/django-guardian/django-guardian) - Per object permissions in Django.
-- [django-sql-explorer](https://github.com/groveco/django-sql-explorer) - Share data via SQL queries.
-- [django-tables2](https://github.com/jieter/django-tables2) - HTML tables with pagination/sorting.
-
 ### Admin
 - [django-grappelli](https://github.com/sehmaschine/django-grappelli) - A jazzy skin for the admin.
 - [django-jazzmin](https://github.com/farridav/django-jazzmin) - Drop-in theme for django admin, that utilises AdminLTE 3 & Bootstrap 4 to make yo' admin look jazzy.
@@ -91,6 +90,7 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 - [drf-yasg](https://github.com/axnsan12/drf-yasg) - Automated generation of real Swagger/OpenAPI 2.0 schemas from Django REST Framework code.
 - [graphene-django](https://github.com/graphql-python/graphene-django) - GraphQL for Django.
 - [django-ninja](https://django-ninja.rest-framework.com/) - Django Ninja - Fast Django REST framework based on type annotations.
+- [django-tastypie](https://django-tastypie.readthedocs.io/) - Tastypie is a webservice API framework for Django.
 <!--lint enable double-link-->
 
 ### Async
@@ -124,6 +124,15 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 - [shuup](https://github.com/shuup/shuup) - Django E-Commerce Platform.
 - [django-oscar](https://github.com/django-oscar/django-oscar) - Domain-driven e-commerce for Django.
 
+### Editors
+<!--lint ignore awesome-list-item-->
+- [django-ckeditor](https://github.com/shaunsephton/django-ckeditor) - Django admin CKEditor integration.
+- [django-markdownx](https://github.com/adi-/django-markdownx) - Comprehensive Markdown plugin built for Django.
+- [django-markdown-editor](https://github.com/agusmakmun/django-markdown-editor) - Awesome Django Markdown Editor, supported for Bootstrap & Semantic-UI.
+- [django-wysiwyg-redactor](https://github.com/douglasmiranda/django-wysiwyg-redactor) - A lightweight wysiwyg editor for Django.
+- [django-business-logic](https://github.com/dgk/django-business-logic) - Visual DSL framework for django.
+- [django-quill-editor](https://github.com/LeeHanYeong/django-quill-editor) - django-quill-editor makes Quill.js easy to use on Django Forms and admin sites.
+
 ### Files/Images
 - [django-cleanup](https://github.com/un1t/django-cleanup) - Zero configuration file/image removal for local and remote files.
 
@@ -133,6 +142,12 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 - [django-autocomplete-light](https://github.com/yourlabs/django-autocomplete-light) - Add autocompletion to forms.
 - [django-shapeshifter](https://github.com/kennethlove/django-shapeshifter) - A CBV to handle multiple forms in one view.
 - [django-summernote](https://github.com/summernote/django-summernote) - Summernote is a simple WYSIWYG editor.
+
+### General
+- [django-filter](https://github.com/carltongibson/django-filter) - Powerful filters based on Django QuerySets.
+- [django-guardian](https://github.com/django-guardian/django-guardian) - Per object permissions in Django.
+- [django-sql-explorer](https://github.com/groveco/django-sql-explorer) - Share data via SQL queries.
+- [django-tables2](https://github.com/jieter/django-tables2) - HTML tables with pagination/sorting.
 
 ### Logging
 - [django-guid](https://github.com/JonasKs/django-guid) - Inject a GUID (Correlation-ID) into every log message in a Django request.
@@ -163,6 +178,7 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 ### Security
 - [django-csp](https://github.com/mozilla/django-csp) - Adds [Content-Security-Policy](http://www.w3.org/TR/CSP/) headers to Django.
 - [django-feature-policy](https://github.com/adamchainz/django-feature-policy) - Set the draft security HTTP header `Feature-Policy` on a Django app.
+- [django-protected-media](https://github.com/cobusc/django-protected-media) - Manages media that are considered sensitive in a protected fashion.
 
 ### Static Assets
 - [django-storages](https://github.com/jschneier/django-storages) - A single library to support multiple custom storage backends for Django.
@@ -197,6 +213,7 @@ _For a complete listing of all available packages, see [Django Packages](https:/
 - [django-allauth](https://github.com/pennersr/django-allauth/) - Improved user registration including social auth.
 - [django-organizations](https://github.com/bennylope/django-organizations/) - Multi-user accounts for Django projects.
 - [django-cas-ng](https://github.com/django-cas-ng/django-cas-ng) - Django-cas-ng is Django CAS (Central Authentication Service) 1.0/2.0/3.0 client library to support SSO (Single Sign On) and Single Logout (SLO).
+- [django-easy-audit](https://github.com/soynatan/django-easy-audit) - Keep track of user actions.
 
 ### Views
 - [django-braces](https://github.com/brack3t/django-braces) - Reusable, generic mixins.
@@ -211,10 +228,12 @@ _A short list of Python packages that work well with Django._
 - [bleach](https://github.com/mozilla/bleach) - Sanitize your inputs/forms.
 - [black](https://github.com/psf/black) - Uncompromising Python code formatter.
 - [coveragepy](https://github.com/nedbat/coveragepy) - Code coverage measurement.
+- [faker](https://github.com/joke2k/faker) - Faker is a Python package that generates fake data for you.
 - [huey](https://github.com/coleifer/huey) - A little task queue for Python.
 - [nplusone](https://github.com/jmcarp/nplusone) - Auto-detect n+1 queries.
 - [pillow](https://github.com/python-pillow/Pillow) - Python Imaging Library.
 - [pytest](https://github.com/pytest-dev/pytest/) - Testing framework.
+- [python-decouple](https://github.com/henriquebastos/python-decouple) - Strict separation of settings from code.
 - [python-slugify](https://github.com/un33k/python-slugify) - Returns unicode slugs.
 - [sentry-python](https://github.com/getsentry/sentry-python) - Error reporting SDK.
 - [whitenoise](https://github.com/evansd/whitenoise) - Simplified static file serving for Python websites.
@@ -287,31 +306,18 @@ _Django 3.1_
 - [Django for Beginners: Build websites with Python and Django](https://djangoforbeginners.com/)
 - [Django for APIs: Build web APIs with Python and Django](https://djangoforapis.com/)
 - [Django for Professionals: Production websites with Python and Django](https://djangoforprofessionals.com/)
+- [Two Scoops of Django 3.x: Best Practices for the Django Web Framework](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x)
+- [A Wedge of Django: Covers Python 3.8 and Django 3.x](https://www.feldroy.com/collections/two-scoops-press/products/django-crash-course)
 
 _Django 3.0_
-- [Django Crash Course](https://roygreenfeld.com/products/django-crash-course)
 - [Speed Up Your Django Tests](https://adamj.eu/tech/2020/05/04/new-book-speed-up-your-django-tests/)
-- [Two Scoops of Django 3.x: Best Practices for the Django Web Framework](https://www.feldroy.com/collections/two-scoops-press/products/two-scoops-of-django-3-x?variant=31605362196567)
 - [Django 3 by Example](https://djangobyexample.com/)
 - [Django 3 Web Development Cookbook](https://www.packtpub.com/eu/web-development/django-3-web-development-cookbook-fourth-edition)
 - [Mastering Django](https://www.amazon.com/Mastering-Django-Nigel-George/dp/0648884414/)
+- [Build a website with Django 3](https://www.amazon.com/Build-Website-Django-Nigel-George/dp/0648884406/)
 
 _Django 2.2_
 - [Tango with Django](https://www.tangowithdjango.com/)
-- [Build a website with Django 2](https://djangobook.com/build-a-website-with-django-2/)
-
-_Django 2.1_
-- [Practical Django 2 and Channels 2](https://www.amazon.com/Practical-Django-Channels-Applications-Capabilities/dp/1484240987)
-- [Django 2 Web Development Cookbook](https://www.amazon.com/Django-Web-Development-Cookbook-practical/dp/1788837681)
-
-_Django 2.0_
-- [Hello Web App 2.0](https://hellowebbooks.com/learn-django/)
-- [Django Design Patterns and Best Practices](https://www.amazon.com/Django-Design-Patterns-Practices-Industry-standard/dp/1788831349)
-- [Django 2 by Example](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1788472489)
-
-_Django 1.11_
-- [Test-Driven Development with Python](https://www.amazon.com/Test-Driven-Development-Python-Selenium-JavaScript/dp/1491958707)
-- [Django RESTful Web Services](https://www.amazon.com/Django-RESTful-Web-Services-services/dp/1788833929)
 
 ## Hosting
 
